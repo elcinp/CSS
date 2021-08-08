@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Tasarım Programı Sözleşmesi</title>
+
+  <style>
+    
+    
+    
+    
+  </style>
+  </head>
+
+
+
+  <body>
+
+    <form action="result.html" id="Onay">
+      
+      <fieldset>  
+        <legend>Sözleşme Onay</legend>
+        <label for="Onay">Aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmesinionaylıyorum.</label>
+        <input type="radio" name="Onaylandı" id="Onay" required />
+        <br />
+        <input type="submit" value="Formu Kaydet" />
+        <input type="submit" value="Formu Temizle" />
+      </fieldset>
+
+      <fieldset class="kisisel">
+        <legend>Kişisel Bilgiler</legend>
+        <label for="id" class="label">Form Güvenlik ID</label>
+        <input type="text"name="Güvenlik_ID" id="id" placeholder="asdfgh" /><br />
+
+        <label for="" class="label">Ad</label>
+        <input type="text" name="Ad" id="" /><br />
+
+        <label for="" class="label">Soyad </label>
+        <input type="text" name="Soyad" id="" /><br />
+
+        <label for="" class="label">Yaş </label>
+        <input type="age" name="Yaş" id="" /><br />
+
+        <label for="" class="label">Mail Adresi</label>
+        <input type="email" name="Mail" id="" /><br />
+
+        <label for="" class="label">Fotoğraf Ekle</label>
+        <input type="file" name="Mail" id="" /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Diğer Bilgiler</legend>
+        <p><b>Buradaki Alanlar Mesleki Deneyimi Kapsar</b></p>
+
+        <label for="">Sektöre Giriş Tarihi</label>
+        <input type="date" name="" id="" /><br />
+
+        <label for="Deneyim">Sektör Deneyimi</label>
+        <select name="Deneyim" id="Deneyim" size="4">
+          <option value="">1-5 yıl</option>
+          <option value="">6-10 yıl</option>
+          <option value="">11-15 yıl</option>
+          <option value="">15-üzeri</option>
+        </select>
+
+        <br /><br />
+
+        <label for="ProgDil">Programlama Dilleri</label>
+        <select name="Programlama Dilleri" id="ProgDil" size="5">
+          <option value="">C#</option>
+          <option value="">PHP</option>
+          <option value="">Java</option>
+          <option value="">Java</option>
+          <option value="">JavaScript</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sözleşme Kopyası</legend>
+        <textarea name="SözleşmeKopyası" id="Kopya" cols="50" rows="5" style="width: 50%; height: 80px; resize: none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias necessitatibus, itaque voluptate incidunt dolores iste! Illo, sequi. Nihil, culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae aut blanditiis non et facere.</textarea>
+      </fieldset>
+
+      <fieldset>
+          <legend>Mail Listesi</legend>
+          
+          <label for="mailyes">Mail Listesine Katılmak <b>İstiyorum</b></label>
+          <input type="radio" name="mail" id="mailyes"><br>
+          <label for="mailno">Mail Listesine Katılmak <b><ins>İstemiyorum</ins></b></label>
+          <input type="radio" name="mail" id="mailno">
+
+      </fieldset>
+
+
+
+
+    </form>
+
+    
+
+
+
+
+
+  </body>
+</html>
